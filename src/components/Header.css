@@ -1,0 +1,19 @@
+/* Header section */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* เต็มความสูงหน้าจอ */
+    overflow: hidden;
+  }
+  
+  /* วิดีโอแบบเต็มหน้าจอ */
+  .full-screen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* วิดีโอครอบคลุมทั้งหน้าจอ */
+    z-index: -1; /* ซ่อนอยู่ด้านหลัง */
+  }
+  
