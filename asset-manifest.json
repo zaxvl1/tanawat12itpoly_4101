@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanawat12itpoly_4101/static/css/main.acb01621.css",
+    "main.js": "/tanawat12itpoly_4101/static/js/main.2741daaf.js",
+    "static/js/488.0635c98f.chunk.js": "/tanawat12itpoly_4101/static/js/488.0635c98f.chunk.js",
+    "index.html": "/tanawat12itpoly_4101/index.html",
+    "main.acb01621.css.map": "/tanawat12itpoly_4101/static/css/main.acb01621.css.map",
+    "main.2741daaf.js.map": "/tanawat12itpoly_4101/static/js/main.2741daaf.js.map",
+    "488.0635c98f.chunk.js.map": "/tanawat12itpoly_4101/static/js/488.0635c98f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acb01621.css",
+    "static/js/main.2741daaf.js"
+  ]
+}
