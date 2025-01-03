@@ -1,28 +1,23 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';  // นำเข้า Navbar
-import Header from './components/Header';  // นำเข้า Header
-import About from './pages/About';        // นำเข้า About
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Course from "./pages/Course";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* Navbar */}
-      <Navbar /> <About />
-     
-      {/* Header พร้อมวิดีโอ */}
-      <Header />
- 
-      {/* เนื้อหาอื่น */}
-      <section className="content-section">
-        <h1>เมนูอื่นๆ</h1>
-        <p>นี่คือเนื้อหาเพิ่มเติมที่คุณสามารถเลื่อนไปดูได้หลังจากวิดีโอ</p>
-      </section>
-
-      {/* เพิ่มหน้า About */}
-      {/* เพิ่ม About ที่นี่ */}
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Course />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

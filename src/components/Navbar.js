@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -25,20 +26,16 @@ const Navbar = () => {
         </div>
         <nav>
           <ul>
-            <li><a href="#">หน้าหลัก</a></li>
+            <li><Link to="/home">หน้าหลัก</Link></li>
             <li 
-              className="about-link"
+              className="home-link"
               onMouseEnter={() => setIsHovered(true)} 
               onMouseLeave={() => setIsHovered(false)}
             >
-              <a href="About.js">เกี่ยวกับโปลีฯ</a>
-              
+              <Link to="/about">เกี่ยวกับโปลีฯ</Link>
             </li>
-
-            <li><a href="#">สาขาที่เปิดสอน</a></li>
-
-            <li><a href="#">ติดต่อเรา</a></li>
-
+            <li><Link to="/courses">สาขาที่เปิดสอน</Link></li>
+            <li><Link to="/contact">ติดต่อเรา</Link></li>
           </ul>
         </nav>
       </div>

@@ -9,11 +9,11 @@ function About() {
 
       <div className="about-cards">
         <div className="about-card">
-          <img src="link_to_image1" alt="คุณบูทอง กิติบุตร" />
+          <img src="https://www.lannapoly.ac.th/web/assets/k-buuthong-BH8uoFfn.jpg" alt="คุณบูทอง กิติบุตร" />
           <p>คุณบูทอง กิติบุตร</p>
         </div>
         <div className="about-card">
-          <img src="link_to_image2" alt="คุณเรียงพันธุ์ ทิพยมนกาล" />
+          <img src="https://www.lannapoly.ac.th/web/assets/k-rhaingpun-BUDLiD9C.jpg" alt="คุณเรียงพันธุ์ ทิพยมนกาล" />
           <p>คุณเรียงพันธุ์ ทิพยมนกาล</p>
         </div>
       </div>
